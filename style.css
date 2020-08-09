@@ -16,7 +16,8 @@ header {
     text-align: center;
     align-items: center;
 
-    position: relative;
+    position: fixed;
+    top: 0;
 }
 
 header img {
@@ -30,13 +31,19 @@ header img {
 header h1 {
     color: white;
     line-height: 100px;
+
+    margin: 0 auto;
+}
+
+nav {
+    line-height: 80px;
 }
 
 nav ul {
     float: right;
-
     position: absolute;
     right:  30px;
+    top: 0;
 }
 
 nav ul  li {
@@ -55,6 +62,7 @@ ul {
 }
 
 .description {
+    margin-top: 80px;
     padding: 25px 80px 25px 80px;
     height: 550px;
     background-color: lightblue;
