@@ -7,8 +7,107 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    position: relative;
+}
+
+header img {
+    border-radius: 50%;
+    float: right;
+
+    position: absolute;
+    left: 30px;
+}
+
+header h1 {
+    color: white;
+    line-height: 100px;
+}
+
+nav ul {
+    float: right;
+
+    position: absolute;
+    right:  30px;
+}
+
+nav ul  li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
+.description {
+    padding: 25px 80px 25px 80px;
+    height: 550px;
+    background-color: lightblue;
+}
+
+.description-up {
+    height: 410px;
+    display: flex;
+}
+
+.description-up-content {
+    padding-left: 20px;
+    display: inline-block;
+}
+.description img {
+    height: 400px;
+    width: 400px;
+
+    float: left;
+}
+
+.description h2 {
+    display: inline-block;
+}
+
+.relationship {    
+    padding: 35px 0 25px 0;
+    height: 550px;
+    position: relative;
+}
+
+.relationship img {
+    height: 400px;
+    width: 400px;
+
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+
+.relationship-content {
+    position: absolute;
+    right: 500px;
+    left: 80px;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: lightgray;
+
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
+
